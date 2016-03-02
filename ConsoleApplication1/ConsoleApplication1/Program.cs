@@ -10,6 +10,25 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            char[] array = { 'H', 'e', 'l', 'l', 'o', '!' };
+            foreach (char el in array)
+            {
+               sb.Append(el);
+            }
+            Console.WriteLine(sb);
+
+            sb.Replace('o', '!');
+            Console.WriteLine(sb);
+
+            sb.Remove(4, 2);
+            Console.WriteLine(sb);
+
+            sb.Insert(2, " is we");
+            Console.WriteLine(sb);
+
+
+            Console.ReadKey();
         }
     }
 }
