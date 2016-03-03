@@ -35,22 +35,28 @@ namespace Array
             int[,] array = new int[a,b];
 
 
-            try
-            {
-                Console.WriteLine("Enter the {0} array elements", a * b);
-                for (int i = 0; i < a; i++)
-                    for (int j = 0; j < b; j++)
-                        array[i, j] = Convert.ToInt16(Console.ReadLine());
-                Console.WriteLine();
-            }
+            Console.WriteLine("Enter the {0} array elements", a * b);
+            for (int i = 0; i < a; i++)
+                for (int j = 0; j < b; j++)
+                {
+                    do
+                    {
+                        try
+                        {
+                            array[i, j] = Convert.ToInt16(Console.ReadLine());
+                            break;
+                        }
+                        catch (System.FormatException)
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("ERROR: You have entered a symbol, not a number. Try again");
+                        }
+                    }
+                    while (flag);
+                }
 
-            catch (System.FormatException)
-            {
-                Console.WriteLine("ERROR: You have entered a symbol, not a number.");
-                return;
-            }
 
-
+            Console.WriteLine();
             PrintArray(array, a, b);
 
             int minArr =  Min(array);
