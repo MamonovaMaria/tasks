@@ -1,6 +1,0 @@
-D:\Git\task02\ConsoleApplication1\array\bin\Debug\array.exe.config
-D:\Git\task02\ConsoleApplication1\array\bin\Debug\array.exe
-D:\Git\task02\ConsoleApplication1\array\bin\Debug\array.pdb
-D:\Git\task02\ConsoleApplication1\array\obj\Debug\array.exe
-D:\Git\task02\ConsoleApplication1\array\obj\Debug\array.pdb
-D:\Git\task02\ConsoleApplication1\array\obj\Debug\array.csprojResolveAssemblyReference.cache
