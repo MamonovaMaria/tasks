@@ -10,13 +10,30 @@ namespace Array
     {
         static void Main(string[] args)
         {
-            int a;
-            int b;
+            int a = 0;
+            int b = 0;
             Console.WriteLine("Enter the number of rows and columns of the array");
-            a = Convert.ToInt16(Console.ReadLine());
-            b = Convert.ToInt16(Console.ReadLine());
+
+            bool flag = true;
+            do
+            {
+                try
+                {
+                    a = Convert.ToInt16(Console.ReadLine());
+                    b = Convert.ToInt16(Console.ReadLine());
+
+                    break;
+                }
+
+                catch (System.FormatException)
+                {
+                    Console.WriteLine("ERROR: You have entered a symbol, not a number. Try again");
+                }
+            }
+            while (flag);           
 
             int[,] array = new int[a,b];
+
 
             try
             {

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings", "ConsoleApplication1\strings.csproj", "{D622262F-5783-4CE3-ACA1-52C6AE7FE30F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "ConsoleApplication1\Strings.csproj", "{D622262F-5783-4CE3-ACA1-52C6AE7FE30F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array", "array\array.csproj", "{080216C0-274D-465E-B4FA-7AB67FDF83B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "array\Array.csproj", "{080216C0-274D-465E-B4FA-7AB67FDF83B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
