@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace strings
+namespace Strings
 {
     class Program
     {
         static void Main(string[] args)
         {
-            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            StringBuilder sb = new StringBuilder();
             char[] array = { 'H', 'e', 'l', 'l', 'o', '!' };
             foreach (char el in array)
             {
